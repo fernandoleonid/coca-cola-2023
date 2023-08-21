@@ -7,4 +7,20 @@ body{
     width: 100vw;
     height: 100vh;
     background: linear-gradient(#CF2425, #DA6062 50%, #DA6062 60%,#CF2425);
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: green;
+    height: 100px;
+}
+
+main{
+    background-color: blue;
+    flex-grow: 1;
+}
+footer{
+    background-color: purple;
+    height: 100px;
 }
